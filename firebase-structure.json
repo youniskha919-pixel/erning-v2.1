@@ -1,0 +1,34 @@
+{
+  "users": {
+    "user_123": {
+      "id": "user_123",
+      "name": "Mahin",
+      "username": "mahin",
+      "balance": 1250,
+      "referrals": 2,
+      "tasksDone": 7,
+      "streak": 3,
+      "completedTasks": ["ad-200", "task-1"],
+      "createdAt": "2026-09-24T10:00:00.000Z"
+    }
+  },
+  "withdrawals": {
+    "wd_1727160000000": {
+      "id": "wd_1727160000000",
+      "userId": "user_123",
+      "gateway": "bKash",
+      "amount": 500,
+      "wallet": "01700000000",
+      "status": "pending",
+      "createdAt": "2026-09-24T10:00:00.000Z"
+    }
+  },
+  "tasks": {
+    "task_1": {
+      "id": "task_1",
+      "title": "Daily watch ad",
+      "reward": 200,
+      "completedBy": ["user_123"]
+    }
+  }
+}
